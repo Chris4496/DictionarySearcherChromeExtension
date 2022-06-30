@@ -1,0 +1,27 @@
+{
+    "name": "Dictionary Searcher",
+    "description": "Extension for the Dictionary Searcher website",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "action": {
+        "default_icon": {
+            "16": "/images/icon16.png",
+            "32": "/images/icon32.png",
+            "48": "/images/icon48.png",
+            "128": "/images/icon128.png"
+          }
+      },
+    "icons": {
+        "16": "/images/icon16.png",
+        "32": "/images/icon32.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    }
+}
